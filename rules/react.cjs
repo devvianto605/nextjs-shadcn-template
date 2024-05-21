@@ -12,7 +12,6 @@ module.exports = {
   "react/self-closing-comp": ["error", { component: true, html: true }],
   "react/jsx-max-props-per-line": ["error", { maximum: 3, when: "multiline" }],
   "react/jsx-max-depth": ["error", { max: 10 }],
-  "react/jsx-fragments": ["error", "element"],
   "react/jsx-sort-props": [
     "error",
     { callbacksLast: true, shorthandFirst: true, reservedFirst: true },
