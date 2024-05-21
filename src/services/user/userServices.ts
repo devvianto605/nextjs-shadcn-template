@@ -4,8 +4,9 @@
 // // OR import axios from '@libs/axios';
 
 // const servicePath = '/'
+// export type UserData = {}
 
-// export async function getAllUser(): Promise<AxiosResponse<any>> {
+// export async function getAllUser(): Promise<AxiosResponse<UserData>> {
 //   const url = `${servicePath}`;
 
 //   return axios({ method: 'GET', url });
@@ -15,7 +16,7 @@
 //   param: any
 // };
 
-// export async function getUser({param}: GetUserRequest): Promise<AxiosResponse<any>> {
+// export async function getUser({param}: GetUserRequest): Promise<AxiosResponse<UserData>> {
 //   const url = `${servicePath}/${param}`;
 
 //   return axios({ method: 'GET', url });
@@ -25,7 +26,7 @@
 //   body: any
 // };
 
-// export async function createUser({body}: CreateUserRequest): Promise<AxiosResponse<any>> {
+// export async function createUser({body}: CreateUserRequest): Promise<AxiosResponse<UserData>> {
 //   const url = `${servicePath}`;
 
 //   return axios({ data: body, method: 'POST', url });
@@ -36,7 +37,7 @@
 //   body: any
 // };
 
-// export async function updateUser({param,body}: UpdateUserRequest): Promise<AxiosResponse<any>> {
+// export async function updateUser({param,body}: UpdateUserRequest): Promise<AxiosResponse<UserData>> {
 //   const url = `${servicePath}/${param}`;
 
 //   return axios({ data: body, method: 'PUT', url });
@@ -47,7 +48,7 @@
 //   body: any
 // };
 
-// export async function deleteUser({param,body}: DeleteUserRequest): Promise<AxiosResponse<any>> {
+// export async function deleteUser({param,body}: DeleteUserRequest): Promise<AxiosResponse<UserData>> {
 //   const url = `${servicePath}/${param}`;
 
 //   return axios({ data: body, method: 'DELETE', url });
